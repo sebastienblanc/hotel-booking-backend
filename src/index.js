@@ -1,7 +1,7 @@
 // index.js
 const express = require("express");
 const router = require("./router");
-const PORT = 1338;
+const PORT = 8080;
 const app = express();
 
 // Apply JSON parsing middleware
