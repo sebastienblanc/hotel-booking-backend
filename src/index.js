@@ -1,9 +1,12 @@
 // index.js
 const express = require("express");
 const router = require("./router");
+var cors = require('cors')
 const PORT = 8080;
 const app = express();
 
+ 
+app.use(cors())
 // Apply JSON parsing middleware
 app.use(express.json());
 // Apply router
